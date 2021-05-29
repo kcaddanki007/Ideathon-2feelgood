@@ -108,7 +108,7 @@ $(function(){
         },{
           title: "Minimize Screen Time",
           description: "Minimizing screen time and spend more time on activities that don't involve your phone.",
-          image: "images/reduceScreenTime.png",
+          image: "images/reduceScreentime.png",
           colour: "white",
           link: "javascript:;"
         },{
@@ -161,7 +161,7 @@ $(function(){
         },{
           title: "Light Exercise",
           description: "Choose a favourite workout for yourself and workout. Click on the link to find a workout playlist.",
-          image: "images/lightExercise.png",
+          image: "images/lightexercise.png",
           link: "https://www.youtube.com/watch?v=PG2f3GF5RlI&t=238s"
         }, {
           title: "Do some stretches",
@@ -184,13 +184,13 @@ $(function(){
         },{
           title: "Take a trip down the memory lane",
           description: "Open your photo albums and reminisce your old days.",
-          image: "images/memoryLane.png",
+          image: "images/memorylane.png",
           colour: "white",
           link:"javascript:;"
         }, {
           title: "Reduce Screentime Before bed",
           description: "Put your phone away half an hour prior to bed time.",
-          image: "images/reduceScreenTime.png",
+          image: "images/reduceScreentime.png",
           colour: "white",
           link:"javascript:;"
         },{
