@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<!--Navbar-->
+<nav class="navbar grad bg-dark navbar-dark text-dark" style="color: black;">
+  <a class="navbar-brand" href="#">2FeelGood</a>
+  <button class="navbar-toggler togg" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="resources.html" target="_blank">Authenticity of Solutions</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+<br>
+<!--Greeting-->
+<div id="mobile-container" class="mobile-container grad">
+    <h1 style="text-align: center;align-self:center;">Hello! We are a group of people who understand 
+        that the circumstances are hard right now and want to help. 
+        Scroll down to feel better!</h1>
+</div>
+<br>
+<br>
+<!--Empty div for cards-->
+<div id="cards">
+  
+</div>
+
+<!--Questionnaire-->    
+<div id="questionnaire" class="questionnaire">
+
+    <h1 style="text-align: center;align-self:center;letter-spacing: normal;">Questionnaire</h1>
+    <div class="rb-box">
+
+       
+        <div id="rb-1" class="rb">
+          <h5 style="color: black;">1Q. On a scale of 1 to 10, how are your eating habits?</h5>
+          <p>1 being 'My eating habits are in a ruin' and 10 being 'Eating meals on time'.</p>
+          <div class="rb-tab" data-value="1">
+            <div class="rb-spot">
+              <span class="rb-txt">1</span>
+            </div>
+          </div><div class="rb-tab" data-value="2">
+            <div class="rb-spot">
+              <span class="rb-txt">2</span>
+            </div>
+          </div><div class="rb-tab" data-value="3">
+            <div class="rb-spot">
+              <span class="rb-txt">3</span>
+            </div>
+          </div><div class="rb-tab" data-value="4">
+            <div class="rb-spot">
+              <span class="rb-txt">4</span>
+            </div>
+          </div><div class="rb-tab" data-value="5">
+            <div class="rb-spot">
+              <span class="rb-txt">5</span>
+            </div>
+        </div><div class="rb-tab" data-value="6">
+          <div class="rb-spot">
+            <span class="rb-txt">6</span>
+          </div>
+        </div><div class="rb-tab" data-value="7">
+          <div class="rb-spot">
+            <span class="rb-txt">7</span>
+          </div>
+        </div><div class="rb-tab" data-value="8">
+          <div class="rb-spot">
+            <span class="rb-txt">8</span>
+          </div>
+        </div><div class="rb-tab" data-value="9">
+          <div class="rb-spot">
+            <span class="rb-txt">9</span>
+          </div>
+        </div><div class="rb-tab" data-value="10">
+          <div class="rb-spot">
+            <span class="rb-txt">10</span>
+          </div>
+        </div>
+      </div>
+        
+        <div id="rb-2" class="rb">
+          <h5 style="color: black;">2Q. On a scale of 1 to 10, how well do you think you slept in the past 3 nights?</h5>
+          <p>1 being 'I barely got any sleep' and 10 being 'Perfect sleep'.</p>
+          <div class="rb-tab" data-value="1">
+            <div class="rb-spot">
+              <span class="rb-txt">1</span>
+            </div>
+          </div><div class="rb-tab" data-value="2">
+            <div class="rb-spot">
+              <span class="rb-txt">2</span>
+            </div>
+          </div><div class="rb-tab" data-value="3">
+            <div class="rb-spot">
+              <span class="rb-txt">3</span>
+            </div>
+          </div><div class="rb-tab" data-value="4">
+            <div class="rb-spot">
+              <span class="rb-txt">4</span>
+            </div>
+          </div><div class="rb-tab" data-value="5">
+            <div class="rb-spot">
+              <span class="rb-txt">5</span>
+            </div>
+          </div><div class="rb-tab" data-value="6">
+            <div class="rb-spot">
+              <span class="rb-txt">6</span>
+            </div>
+          </div><div class="rb-tab" data-value="7">
+            <div class="rb-spot">
+              <span class="rb-txt">7</span>
+            </div>
+          </div><div class="rb-tab" data-value="8">
+            <div class="rb-spot">
+              <span class="rb-txt">8</span>
+            </div>
+          </div><div class="rb-tab" data-value="9">
+            <div class="rb-spot">
+              <span class="rb-txt">9</span>
+            </div>
+          </div><div class="rb-tab" data-value="10">
+            <div class="rb-spot">
+              <span class="rb-txt">10</span>
+            </div>
+          </div>
+        </div>
+      
+        
+        <div id="rb-3" class="rb">
+          <h5 style="color: black;">3Q. On a scale of 1 to 10, how nervous are you feeling?</h5>
+              <p>1 being 'Feeling extremely nervous' and 10 being 'Feeling confident'.</p>
+          <div class="rb-tab" data-value="1">
+            <div class="rb-spot">
+              <span class="rb-txt">1</span>
+            </div>
+          </div><div class="rb-tab" data-value="2">
+            <div class="rb-spot">
+              <span class="rb-txt">2</span>
+            </div>
+          </div><div class="rb-tab" data-value="3">
+            <div class="rb-spot">
+              <span class="rb-txt">3</span>
+            </div>
+          </div><div class="rb-tab" data-value="4">
+            <div class="rb-spot">
+              <span class="rb-txt">4</span>
+            </div>
+          </div><div class="rb-tab" data-value="5">
+            <div class="rb-spot">
+              <span class="rb-txt">5</span>
+            </div>
+          </div><div class="rb-tab" data-value="6">
+            <div class="rb-spot">
+              <span class="rb-txt">6</span>
+            </div>
+          </div><div class="rb-tab" data-value="7">
+            <div class="rb-spot">
+              <span class="rb-txt">7</span>
+            </div>
+          </div><div class="rb-tab" data-value="8">
+            <div class="rb-spot">
+              <span class="rb-txt">8</span>
+            </div>
+          </div><div class="rb-tab" data-value="9">
+            <div class="rb-spot">
+              <span class="rb-txt">9</span>
+            </div>
+          </div><div class="rb-tab" data-value="10">
+            <div class="rb-spot">
+              <span class="rb-txt">10</span>
+            </div>
+          </div>
+        </div>
+      
+        
+        <div id="rb-4" class="rb">
+          <h5 style="color: black;">4Q. On a scale of 1 to 10, how do you feel about doing your chores?</h5>
+              <p>1 being 'Feeling the lack of motivation to do anything' and 10 being 'Feeling motivated enough to finish the chores'.</p>
+          <div class="rb-tab" data-value="1">
+            <div class="rb-spot">
+              <span class="rb-txt">1</span>
+            </div>
+          </div><div class="rb-tab" data-value="2">
+            <div class="rb-spot">
+              <span class="rb-txt">2</span>
+            </div>
+          </div><div class="rb-tab" data-value="3">
+            <div class="rb-spot">
+              <span class="rb-txt">3</span>
+            </div>
+          </div><div class="rb-tab" data-value="4">
+            <div class="rb-spot">
+              <span class="rb-txt">4</span>
+            </div>
+          </div><div class="rb-tab" data-value="5">
+            <div class="rb-spot">
+              <span class="rb-txt">5</span>
+            </div>
+          </div><div class="rb-tab" data-value="6">
+            <div class="rb-spot">
+              <span class="rb-txt">6</span>
+            </div>
+          </div><div class="rb-tab" data-value="7">
+            <div class="rb-spot">
+              <span class="rb-txt">7</span>
+            </div>
+          </div><div class="rb-tab" data-value="8">
+            <div class="rb-spot">
+              <span class="rb-txt">8</span>
+            </div>
+          </div><div class="rb-tab" data-value="9">
+            <div class="rb-spot">
+              <span class="rb-txt">9</span>
+            </div>
+          </div><div class="rb-tab" data-value="10">
+            <div class="rb-spot">
+              <span class="rb-txt">10</span>
+            </div>
+          </div>
+        </div>
+      
+        
+        <div id="rb-5" class="rb">
+          <h5 style="color: black;">5Q. On a scale of 1 to 10, how connected are you with your loved ones?</h5>
+              <p>1 being 'Disconnected' and 10 being 'Emotionally connected'.</p>
+          <div class="rb-tab" data-value="1">
+            <div class="rb-spot">
+              <span class="rb-txt">1</span>
+            </div>
+          </div><div class="rb-tab" data-value="2">
+            <div class="rb-spot">
+              <span class="rb-txt">2</span>
+            </div>
+          </div><div class="rb-tab" data-value="3">
+            <div class="rb-spot">
+              <span class="rb-txt">3</span>
+            </div>
+          </div><div class="rb-tab" data-value="4">
+            <div class="rb-spot">
+              <span class="rb-txt">4</span>
+            </div>
+          </div><div class="rb-tab" data-value="5">
+            <div class="rb-spot">
+              <span class="rb-txt">5</span>
+            </div>
+          </div><div class="rb-tab" data-value="6">
+            <div class="rb-spot">
+              <span class="rb-txt">6</span>
+            </div>
+          </div><div class="rb-tab" data-value="7">
+            <div class="rb-spot">
+              <span class="rb-txt">7</span>
+            </div>
+          </div><div class="rb-tab" data-value="8">
+            <div class="rb-spot">
+              <span class="rb-txt">8</span>
+            </div>
+          </div><div class="rb-tab" data-value="9">
+            <div class="rb-spot">
+              <span class="rb-txt">9</span>
+            </div>
+          </div><div class="rb-tab" data-value="10">
+            <div class="rb-spot">
+              <span class="rb-txt">10</span>
+            </div>
+          </div>
+        </div>
+
+       
+        <div id="rb-6" class="rb">
+          <h5 style="color: black;">6Q. On a scale of 1 to 10, how much time do you spend on social media?</h5>
+          <p>1 being 'I stay online for most of the day' and 10 being 'I am very disconnected from it'.</p>
+              <div class="rb-tab" data-value="1">
+                <div class="rb-spot">
+                  <span class="rb-txt">1</span>
+                </div>
+              </div><div class="rb-tab" data-value="2">
+                <div class="rb-spot">
+                  <span class="rb-txt">2</span>
+                </div>
+              </div><div class="rb-tab" data-value="3">
+                <div class="rb-spot">
+                  <span class="rb-txt">3</span>
+                </div>
+              </div><div class="rb-tab" data-value="4">
+                <div class="rb-spot">
+                  <span class="rb-txt">4</span>
+                </div>
+              </div><div class="rb-tab" data-value="5">
+                <div class="rb-spot">
+                  <span class="rb-txt">5</span>
+                </div>
+              </div><div class="rb-tab" data-value="6">
+                <div class="rb-spot">
+                  <span class="rb-txt">6</span>
+                </div>
+              </div><div class="rb-tab" data-value="7">
+                <div class="rb-spot">
+                  <span class="rb-txt">7</span>
+                </div>
+              </div><div class="rb-tab" data-value="8">
+                <div class="rb-spot">
+                  <span class="rb-txt">8</span>
+                </div>
+              </div><div class="rb-tab" data-value="9">
+                <div class="rb-spot">
+                  <span class="rb-txt">9</span>
+                </div>
+              </div><div class="rb-tab" data-value="10">
+                <div class="rb-spot">
+                  <span class="rb-txt">10</span>
+                </div>
+              </div>
+            </div>
+        
+            
+        <div id="rb-7" class="rb">
+          <h5 style="color: black;">7Q. On a scale of 1 to 10, how often do you see the news?</h5>
+          <p>1 being 'I have it on for most of the time' and 10 being 'I don't watch the news at all'.</p>
+              <div class="rb-tab" data-value="1">
+                <div class="rb-spot">
+                  <span class="rb-txt">1</span>
+                </div>
+              </div><div class="rb-tab" data-value="2">
+                <div class="rb-spot">
+                  <span class="rb-txt">2</span>
+                </div>
+              </div><div class="rb-tab" data-value="3">
+                <div class="rb-spot">
+                  <span class="rb-txt">3</span>
+                </div>
+              </div><div class="rb-tab" data-value="4">
+                <div class="rb-spot">
+                  <span class="rb-txt">4</span>
+                </div>
+              </div><div class="rb-tab" data-value="5">
+                <div class="rb-spot">
+                  <span class="rb-txt">5</span>
+                </div>
+              </div><div class="rb-tab" data-value="6">
+                <div class="rb-spot">
+                  <span class="rb-txt">6</span>
+                </div>
+              </div><div class="rb-tab" data-value="7">
+                <div class="rb-spot">
+                  <span class="rb-txt">7</span>
+                </div>
+              </div><div class="rb-tab" data-value="8">
+                <div class="rb-spot">
+                  <span class="rb-txt">8</span>
+                </div>
+              </div><div class="rb-tab" data-value="9">
+                <div class="rb-spot">
+                  <span class="rb-txt">9</span>
+                </div>
+              </div><div class="rb-tab" data-value="10">
+                <div class="rb-spot">
+                  <span class="rb-txt">10</span>
+                </div>
+              </div>
+            </div>
+
+            
+        <div id="rb-8" class="rb">
+          <h5 style="color: black;">8Q. On a scale of 1 to 10, how physically active are you?</h5>
+          <p>1 being 'I am a couch potato' and 10 being 'I exercise frequently and feel fit'.</p>
+              <div class="rb-tab" data-value="1">
+                <div class="rb-spot">
+                  <span class="rb-txt">1</span>
+                </div>
+              </div><div class="rb-tab" data-value="2">
+                <div class="rb-spot">
+                  <span class="rb-txt">2</span>
+                </div>
+              </div><div class="rb-tab" data-value="3">
+                <div class="rb-spot">
+                  <span class="rb-txt">3</span>
+                </div>
+              </div><div class="rb-tab" data-value="4">
+                <div class="rb-spot">
+                  <span class="rb-txt">4</span>
+                </div>
+              </div><div class="rb-tab" data-value="5">
+                <div class="rb-spot">
+                  <span class="rb-txt">5</span>
+                </div>
+              </div><div class="rb-tab" data-value="6">
+                <div class="rb-spot">
+                  <span class="rb-txt">6</span>
+                </div>
+              </div><div class="rb-tab" data-value="7">
+                <div class="rb-spot">
+                  <span class="rb-txt">7</span>
+                </div>
+              </div><div class="rb-tab" data-value="8">
+                <div class="rb-spot">
+                  <span class="rb-txt">8</span>
+                </div>
+              </div><div class="rb-tab" data-value="9">
+                <div class="rb-spot">
+                  <span class="rb-txt">9</span>
+                </div>
+              </div><div class="rb-tab" data-value="10">
+                <div class="rb-spot">
+                  <span class="rb-txt">10</span>
+                </div>
+              </div>
+            </div>
+            
+        <!--Submit Button-->
+
+        <div class="button-box">
+          <button class="button1 trigger sub">Submit!</button>
+        </div>
+      
+      </div>
+</div>
+</body>
+</html>
+
+
+
