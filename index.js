@@ -190,7 +190,7 @@ $(function(){
         }, {
           title: "Reduce Screentime Before bed",
           description: "Put your phone away half an hour prior to bed time.",
-          image: "images/reduceScreentime.png",
+          image: "images/reducescreentime.png",
           colour: "white",
           link:"javascript:;"
         },{
