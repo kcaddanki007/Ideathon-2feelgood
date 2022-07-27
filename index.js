@@ -4,6 +4,7 @@ $(function(){
         return 'Are you really sure you want to perform the action?';
        }
 
+  
       var inputs = []; 
       
       $(".rb-tab").click(function(){
